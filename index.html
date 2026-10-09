@@ -1,0 +1,569 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pendaftaran UKM Multimedia | IKIP PGRI Bojonegoro</title>
+    <meta name="description" content="Bergabunglah dengan UKM Multimedia IKIP PGRI Bojonegoro. Kembangkan kreativitas di bidang fotografi, videografi, editing, dan teknologi multimedia.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- TOP BAR -->
+    <div class="top-bar">
+        <div class="top-container">
+            <div></div>
+
+            <div class="social">
+                <span>Follow:</span>
+
+                <a href="https://www.instagram.com/ukmmultimedia/"
+                   target="_blank" rel="noopener noreferrer"
+                   aria-label="Instagram UKM Multimedia">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="https://www.tiktok.com/"
+                   target="_blank" rel="noopener noreferrer"
+                   aria-label="TikTok UKM Multimedia">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+
+                <a href="https://www.youtube.com/"
+                   target="_blank" rel="noopener noreferrer"
+                   aria-label="YouTube UKM Multimedia">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="nav-container">
+
+            <a href="#home" class="logo">
+                <img src="logo.png"
+                     alt="Logo UKM Multimedia"
+                     class="logo-image">
+
+                <div class="logo-text">
+                    <strong>UKM MULTIMEDIA</strong>
+                    <span>Creative, Innovative, Collaborative</span>
+                </div>
+            </a>
+
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home" class="active">Beranda</a>
+                <a href="#profil">Profil</a>
+                <a href="#kegiatan">Kegiatan</a>
+                <a href="#galeri">Galeri</a>
+                <a href="#struktur">Struktur</a>
+                <a href="#kontak">Hubungi Kami</a>
+            </nav>
+
+            <a href="https://www.instagram.com/ukmmultimedia/"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="instagram-button">
+                <i class="fa-brands fa-instagram"></i>
+                Instagram
+            </a>
+
+            <button type="button"
+                    class="hamburger"
+                    id="hamburger"
+                    aria-label="Buka menu navigasi"
+                    aria-controls="navMenu"
+                    aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </div>
+    </header>
+
+    <main>
+
+        <!-- HERO SLIDER -->
+        <section class="hero" id="home">
+
+            <div class="slide active">
+                <div class="slide-image image-one"></div>
+                <div class="overlay"></div>
+
+                <div class="hero-content">
+                    <span class="category">OPEN RECRUITMENT</span>
+
+                    <h1>Bergabung dan<br>Berkarya Bersama</h1>
+
+                    <p>
+                        Kembangkan kreativitas, kemampuan,
+                        dan pengalamanmu bersama UKM Multimedia.
+                    </p>
+
+                    <button type="button"
+                            class="register-button"
+                            data-open-form>
+                        DAFTAR SEKARANG
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="slide-image image-two"></div>
+                <div class="overlay"></div>
+
+                <div class="hero-content">
+                    <span class="category">CREATIVE COMMUNITY</span>
+
+                    <h1>Create.<br>Design. Inspire.</h1>
+
+                    <p>
+                        Tempat mahasiswa untuk belajar,
+                        bereksperimen, dan menghasilkan karya kreatif.
+                    </p>
+
+                    <button type="button"
+                            class="register-button"
+                            data-open-form>
+                        GABUNG SEKARANG
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="slide-image image-three"></div>
+                <div class="overlay"></div>
+
+                <div class="hero-content">
+                    <span class="category">MULTIMEDIA STUDENT</span>
+
+                    <h1>Belajar.<br>Berkembang. Berkarya.</h1>
+
+                    <p>
+                        Bangun pengalaman di bidang desain,
+                        fotografi, video, teknologi, dan multimedia.
+                    </p>
+
+                    <button type="button"
+                            class="register-button"
+                            data-open-form>
+                        DAFTAR UKM
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="slider-navigation" aria-label="Navigasi slide">
+                <button type="button" class="dot active"
+                        data-slide="0" aria-label="Slide 1"></button>
+                <button type="button" class="dot"
+                        data-slide="1" aria-label="Slide 2"></button>
+                <button type="button" class="dot"
+                        data-slide="2" aria-label="Slide 3"></button>
+            </div>
+
+        </section>
+
+        <!-- PROFIL -->
+        <section class="profile-section" id="profil">
+            <div class="section-container">
+
+                <div class="section-title">
+                    <span>TENTANG KAMI</span>
+                    <h2>UKM Multimedia</h2>
+                    <p>
+                        Wadah kreativitas mahasiswa untuk
+                        mengembangkan kemampuan di bidang
+                        multimedia dan teknologi digital.
+                    </p>
+                </div>
+
+                <div class="profile-grid">
+
+                    <div class="profile-card">
+                        <div class="icon">
+                            <i class="fa-solid fa-lightbulb"></i>
+                        </div>
+                        <h3>Kreativitas</h3>
+                        <p>
+                            Mengembangkan ide kreatif menjadi
+                            karya multimedia yang menarik.
+                        </p>
+                    </div>
+
+                    <div class="profile-card">
+                        <div class="icon">
+                            <i class="fa-solid fa-video"></i>
+                        </div>
+                        <h3>Produksi Multimedia</h3>
+                        <p>
+                            Belajar fotografi, videografi,
+                            editing, desain, dan produksi konten.
+                        </p>
+                    </div>
+
+                    <div class="profile-card">
+                        <div class="icon">
+                            <i class="fa-solid fa-users"></i>
+                        </div>
+                        <h3>Kolaborasi</h3>
+                        <p>
+                            Bekerja bersama mahasiswa lain
+                            dalam berbagai kegiatan dan proyek.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- KEGIATAN -->
+        <section class="activity-section" id="kegiatan">
+            <div class="section-container">
+
+                <div class="section-title">
+                    <span>KEGIATAN</span>
+                    <h2>Belajar Sambil Berkarya</h2>
+                    <p>
+                        Berbagai kegiatan yang dapat membantu
+                        meningkatkan skill dan pengalaman.
+                    </p>
+                </div>
+
+                <div class="activity-grid">
+
+                    <div class="activity">
+                        <i class="fa-solid fa-camera"></i>
+                        <h3>Fotografi</h3>
+                        <p>Belajar teknik fotografi dan pengolahan foto.</p>
+                    </div>
+
+                    <div class="activity">
+                        <i class="fa-solid fa-film"></i>
+                        <h3>Videografi</h3>
+                        <p>Produksi video, film pendek, dan dokumentasi kegiatan.</p>
+                    </div>
+
+                    <div class="activity">
+                        <i class="fa-solid fa-pen-nib"></i>
+                        <h3>Editing</h3>
+                        <p>Mengolah foto dan video menjadi karya yang menarik.</p>
+                    </div>
+
+                    <div class="activity">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h3>Publikasi</h3>
+                        <p>Mengelola konten dan publikasi kegiatan UKM Multimedia.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- GALERI -->
+        <section class="gallery-section" id="galeri">
+            <div class="section-container">
+
+                <div class="section-title">
+                    <span>GALERI</span>
+                    <h2>Aktivitas Anak Multimedia</h2>
+                    <p>
+                        Dokumentasi kegiatan dan kreativitas
+                        mahasiswa UKM Multimedia.
+                    </p>
+                </div>
+
+                <div class="gallery-grid">
+
+                    <div class="gallery-item large">
+                        <img src="makrap.JPG"
+                             alt="Kegiatan MAKRAB UKM Multimedia"
+                             loading="lazy">
+                        <div class="gallery-caption">
+                            Kegiatan MAKRAB UKM Multimedia
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="lensara.jpeg"
+                             alt="Shooting film Lensara Picture"
+                             loading="lazy">
+                        <div class="gallery-caption">
+                            Kegiatan Shooting Film (Lensara Picture)
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="10.png"
+                             alt="Shooting film Sigma Production"
+                             loading="lazy">
+                        <div class="gallery-caption">
+                            Kegiatan Shooting Film (Sigma Production)
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- STRUKTUR / DEPARTEMEN -->
+        <section class="structure-section" id="struktur">
+            <div class="section-container">
+
+                <div class="section-title">
+                    <span>ORGANISASI</span>
+                    <h2>Departemen UKM Multimedia</h2>
+                </div>
+
+                <div class="department-grid">
+
+                    <div class="department-card">
+                        <i class="fa-solid fa-camera-retro"></i>
+                        <h3>Fotografi dan Videografi</h3>
+                        <p>• Fotografi</p>
+                        <p>• Videografi</p>
+                    </div>
+
+                    <div class="department-card">
+                        <i class="fa-solid fa-photo-film"></i>
+                        <h3>Editing dan Publikasi</h3>
+                        <p>• Editing</p>
+                        <p>• Publikasi</p>
+                    </div>
+
+                    <div class="department-card">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h3>MULTECH - Multimedia Technology</h3>
+                        <p>• Multimedia Technology</p>
+                    </div>
+
+                    <div class="department-card">
+                        <i class="fa-solid fa-rocket"></i>
+                        <h3>Kewirausahaan, Pengembangan SDM, dan Kerjasama</h3>
+                        <p>• Kewirausahaan</p>
+                        <p>• Pengembangan SDM</p>
+                        <p>• Kerjasama</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA PENDAFTARAN -->
+        <section class="registration-section" id="kontak">
+            <div class="registration-content">
+
+                <span>OPEN RECRUITMENT 2026</span>
+
+                <h2>Siap Menjadi Bagian<br>dari UKM Multimedia?</h2>
+
+                <p>
+                    Jangan hanya menjadi penonton.
+                    Mari belajar, berkarya, dan berkembang
+                    bersama kami.
+                </p>
+
+                <button type="button"
+                        class="register-button large"
+                        data-open-form>
+                    DAFTAR SEKARANG
+                    <i class="fa-brands fa-whatsapp"></i>
+                </button>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- MODAL FORM PENDAFTARAN -->
+    <div class="form-modal" id="formModal"
+         role="dialog"
+         aria-modal="true"
+         aria-labelledby="formTitle"
+         aria-hidden="true">
+
+        <div class="form-modal-content">
+
+            <div class="form-modal-header">
+                <div>
+                    <span>OPEN RECRUITMENT 2026</span>
+                    <h2 id="formTitle">Form Pendaftaran</h2>
+                    <p>Lengkapi data diri kamu dengan benar.</p>
+                </div>
+
+                <button type="button"
+                        class="close-form"
+                        id="closeForm"
+                        aria-label="Tutup formulir">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <form id="registrationForm">
+
+                <div class="form-group">
+                    <label for="nama">1. Nama Lengkap <span>*</span></label>
+                    <input type="text" id="nama" name="nama"
+                           placeholder="Masukkan nama lengkap"
+                           autocomplete="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="nim">2. NIM <span>*</span></label>
+                    <input type="text" id="nim" name="nim"
+                           placeholder="Masukkan NIM" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="prodi">3. Program Studi <span>*</span></label>
+                    <input type="text" id="prodi" name="prodi"
+                           placeholder="Contoh: Pendidikan Teknologi Informasi"
+                           required>
+                </div>
+
+                <div class="form-group">
+                    <label for="semester">4. Semester <span>*</span></label>
+                    <select id="semester" name="semester" required>
+                        <option value="">Pilih Semester</option>
+                        <option>Semester 1</option>
+                        <option>Semester 2</option>
+                        <option>Semester 3</option>
+                        <option>Semester 4</option>
+                        <option>Semester 5</option>
+                        <option>Semester 6</option>
+                        <option>Semester 7</option>
+                        <option>Semester 8</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="departemen">5. Departemen <span>*</span></label>
+                    <select id="departemen" name="departemen" required>
+                        <option value="">Pilih Departemen</option>
+                        <option value="Fotografi dan Videografi">
+                            Fotografi dan Videografi
+                        </option>
+                        <option value="Editing dan Publikasi">
+                            Editing dan Publikasi
+                        </option>
+                        
+                        <option value="MULTECH - Multimedia Technology">
+                            MULTECH - Multimedia Technology
+                        </option>
+
+                        <option value="Kewirausahaan, Pengembangan SDM, dan Kerjasama">
+                            Kewirausahaan, Pengembangan SDM, dan Kerjasama
+                        </option>
+
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="divisi">6. Divisi <span>*</span></label>
+                    <select id="divisi" name="divisi" required disabled>
+                        <option value="">Pilih departemen terlebih dahulu</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="alasan">7. Alasan Ingin Bergabung <span>*</span></label>
+                    <textarea id="alasan" name="alasan" rows="5"
+                              placeholder="Tuliskan alasan kamu ingin bergabung dengan UKM Multimedia..."
+                              required></textarea>
+                </div>
+
+                <label class="agreement">
+                    <input type="checkbox" id="agreement"
+                           name="agreement" required>
+                    <span>
+                        Saya menyatakan bahwa data yang saya isi
+                        adalah benar dan siap mengikuti proses
+                        pendaftaran UKM Multimedia.
+                    </span>
+                </label>
+
+                <button type="submit" class="submit-registration">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    DAFTAR SEKARANG
+                </button>
+
+                <p class="form-note">
+                    Setelah menekan tombol, kamu akan diarahkan
+                    ke WhatsApp Admin UKM Multimedia.
+                </p>
+
+            </form>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <img src="logo2.png" alt="Logo UKM Multimedia">
+
+                    <div>
+                        <strong>UKM MULTIMEDIA</strong>
+                        <span>Creative, Innovative, Collaborative</span>
+                    </div>
+                </div>
+
+                <p>
+                    Wadah kreativitas mahasiswa untuk berkembang
+                    dan berkarya di dunia multimedia.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Navigasi</h4>
+                <a href="#home">Beranda</a>
+                <a href="#profil">Profil</a>
+                <a href="#kegiatan">Kegiatan</a>
+                <a href="#galeri">Galeri</a>
+                <a href="#struktur">Struktur</a>
+            </div>
+
+            <div class="footer-links">
+                <h4>Pendaftaran</h4>
+                <a href="#kontak" data-open-form>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    Daftar Sekarang
+                </a>
+
+                <a href="https://www.instagram.com/ukmmultimedia/"
+                   target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-instagram"></i>
+                    Instagram
+                </a>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            © 2026 UKM Multimedia — IKIP PGRI Bojonegoro
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
